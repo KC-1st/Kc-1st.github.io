@@ -3,4 +3,4 @@ const button = document.querySelector("#whatFood")
         // need to say function() follwed by parenthesis 
         // so that alert is condition controlled
         alert("button works!")
-    }
+    })
