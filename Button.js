@@ -1,4 +1,4 @@
-const button = document.querySelector("#whatFood")
+const button = document.querySelector("#button1")
     button.addEventListener("click", function() {
         // need to say function() follwed by parenthesis 
         // so that alert is condition controlled
