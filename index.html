@@ -8,18 +8,24 @@
 </head>
 
 <body>
-    <h1 id="Main header" class="my-header">
+    <h1 id="main-header" class="my-header">
         Header
     </h1>
     Hello
     <button id="button1">click me!!</button>
+
+    <br>
+<!--  the above tag is special and doesn't need to be closed, same for the input tag below  -->
+
+        <button id="submit-button">Submit</button>
+        <input type="text" id="text1" placeholder="Type something!" aria-label="press the submit button after typing something">
+<!--   the placeholder instruction lets me put text inside the text box     -->
+<!-- an aria label is invisible but screen readers for visually impaired people can detect it-->
     <script src="Script.js"></script>
-    <form onsubmit="submit">
-        <button id="submitButton">Submit</button>
-        <input type="text" id="text1">Type something</input>
-
-
-    </form>
 </body>
 
 <!-- Learn JS -->
+<!--<form onsubmit="submit">
+        <button id="submitButton">Submit</button>
+        <input type="text" id="text1">Type something</input>
+    </form>-->
