@@ -1,0 +1,11 @@
+#button1 {
+    background-color: peachpuff;
+    font-size: 10px;
+    border-width: 5px;
+}
+
+#submitButton {
+    background-color: red;
+    border-width: 3px;
+}
+
